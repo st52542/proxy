@@ -14,5 +14,6 @@ public class HighResolutionImageInterface implements ImageInterface {
     @Override
     public void showImage() {
         // logika pro zobrazení Image
+        System.out.println("Vyvolání plného zobrazení");
     }
 }
