@@ -25,7 +25,5 @@ public class ImageInterfaceProxy implements ImageInterface {
         // nyní vyvoláme showImage pomocí plného objektu
         System.out.println("Vyvolání obrázku v plném rozlyšení");
         proxifiedImageInterface.showImage();
-
     }
-
 }
